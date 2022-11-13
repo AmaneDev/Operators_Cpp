@@ -1,4 +1,4 @@
-# Operatorátory v C++
+# Operátory v C++
 Základní operátory v C++ Přehledně od Amane. Popisky jsou v češtině.
 
 Hope that helps ;)
