@@ -30,7 +30,7 @@ int main()
     cout << "Logická negace:"<<" !"<<jedna<<" = "<<!jedna<<" , !"<<nula<<" = "<<!nula<<endl;    //Logický operátor negace se používá k určení opačné hodnoty. Používáme, když je třeba "otočit" podmínku.
     cout << "Logický součet (OR):"<<jedna<<"||"<<nula<<"="<<(jedna||nula)<<" , "<<nula<<"||"<<nula<<"="<<(nula||nula)<<" , "<<jedna<<"||"<<jedna<<"="<<(jedna||jedna)<<endl;    //Výraz je pravdivý, pokud je alespomň jeden z operandů pravdivý. Používáme pro sloučení dvou podmínek. Pokud platí alespomň jedna z podmínek, je výseldek true. 
     cout << "Logický součin (AND): "<<jedna<<"&&"<<nula<<"="<<(jedna&&nula)<<" , "<<nula<<"&&"<<nula<<"="<<(nula&&nula)<<" , "<<jedna<<"&&"<<jedna<<"="<<(jedna&&jedna)<<endl;  //Výraz je pravdivý pouze tehdy, když jsou oba operandy pravdivé. Používáme, pokud výsledný výraz má být true při současném splnění obou podmínek.
-    cout << "Podmíněný operátor:" << (jedna==!nula? "pravda":"nepravda");
+    cout << "Podmíněný operátor:" << (jedna==!nula? "pravda":"nepravda"); //Obsahuje 3 operandy. První operand představuje podmínku, je-li splněna, je výsledkem operace druhý operand. Pokud podmínka není splněna, je výsledkem operace třetí operand.
     cout << endl;
     cout << "Operátory bitové\n";
     cout << "Bitová negace "<<" ~ " << a <<" = " << (~a) <<endl;                // Je-li vstup 0, pak výstup je 1, a je-li vstup 1 výstup je 0
